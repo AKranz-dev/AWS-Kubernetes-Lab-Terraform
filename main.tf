@@ -1,8 +1,8 @@
 # # Provider Configuration # #
 provider "aws" {
   region                   = var.awsRegion
-  shared_config_files      = ["C:/Users/austi/.aws/config"]
-  shared_credentials_files = ["C:/Users/austi/.aws/credentials"]
+  #shared_config_files      = ["C:/Users/<yourName>/.aws/config"]
+  #shared_credentials_files = ["C:/Users/<yourName>/.aws/credentials"]
 }
 
 # # Dynamic Variable Declaration # #
