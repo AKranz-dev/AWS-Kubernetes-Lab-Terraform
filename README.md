@@ -1,6 +1,6 @@
 # Welcome to AWS-Kubernetes-Lab-Terraform!
 
-Hi! AWS-Kubernetes-Lab-Terraform is an Terraform configuration template that bootstraps a 3-node Kubernetes cluster on EC2. AWS-Kubernetes-Lab-Terraform makes it easy to begin working with an EC2-hosted kubernetes cluster in minutes. AWS-Kubernetes-Lab-Terraform fully automates cluster provisioning and configuration, so you can immediately begin running kubectl commands when you SSH to the control plane. No manual configuration is required!
+Hi! AWS-Kubernetes-Lab-Terraform is an Terraform configuration template that bootstraps a 3-node Kubernetes cluster on EC2. This project makes it easy to begin working with an EC2-hosted kubernetes cluster in minutes. This project fully automates cluster provisioning and configuration, so you can immediately begin running kubectl commands when you SSH to the control plane. No manual configuration is required!
 
 
 # How to use
@@ -22,7 +22,7 @@ Hi! AWS-Kubernetes-Lab-Terraform is an Terraform configuration template that boo
 
 
 # Specifications
-- **AWS-Kubernetes-Lab-Terraform.yaml**
+- **main.tf resources**
   - 3 EC2 instances
   - EC2 instance profile and IAM role
   - Security groups for the control node and worker nodes, and their ingress/egress rules.
